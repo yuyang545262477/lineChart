@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lineChart"
+    }
+  },
+  "defaultProject": "lineChart",
+  "cli": {
+    "analytics": "6bf03689-abd9-4d58-ab1f-8bfd6e25d4ac"
+  }
 }
