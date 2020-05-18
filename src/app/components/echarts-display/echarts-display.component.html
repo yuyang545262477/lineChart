@@ -1,0 +1,2 @@
+<div echarts [options]="chartOption" class="demo-chart" [merge]="eData$|async|transEchartMerge"
+     (chartInit)="chartInit($event)"></div>

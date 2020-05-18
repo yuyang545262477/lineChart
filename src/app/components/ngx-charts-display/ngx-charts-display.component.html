@@ -1,0 +1,19 @@
+<ngx-charts-line-chart
+  (activate)="onActivate($event)"
+  (deactivate)="onDeactivate($event)"
+  (select)="onSelect($event)"
+  [legend]="legend"
+  [results]="data$|async"
+  [scheme]="colorScheme"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [timeline]="timeline"
+  [view]="view"
+  [xAxisLabel]="'x'"
+  [xAxis]="xAxis"
+  [yAxisLabel]="'y'"
+  [yAxis]="yAxis"
+  trimXAxisTicks="true"
+  [xAxisTickFormatting]="handleXAxis.bind(this)"
+>
+</ngx-charts-line-chart>

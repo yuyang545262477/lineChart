@@ -1,14 +1,14 @@
-import {Injectable} from '@angular/core';
-import {BehaviorSubject, Observable, timer} from 'rxjs';
-import {map, withLatestFrom} from 'rxjs/operators';
-import {IData, IResult} from './model';
+import {Injectable} from "@angular/core";
+import {BehaviorSubject, Observable, timer} from "rxjs";
+import {map, withLatestFrom} from "rxjs/operators";
+import {IData, IResult} from "./model";
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: "root",
 })
 export class DataService {
   private initResult: IResult = {
-    name: 'lineChart',
+    name: "lineChart",
     series: [],
   };
 
